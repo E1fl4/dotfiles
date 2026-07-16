@@ -1,1 +1,26 @@
+.config/dconf/
+.config/discord/
+.config/dolphinrc
+.config/filetypesrc
+.config/GitHub\ Desktop/
+.config/go/
+.config/mimeapps.list
+.config/mirage/
+.config/mozilla/
+.config/mpd/
 .config/nvim/
+.config/Olympus/
+.config/ow-electron/
+.config/pavucontrol.ini
+.config/pipewire/
+.config/ProtonPlus/
+.config/pulse/
+.config/QtProject.conf
+.config/session/
+.config/spotify/
+.config/trashrc
+.config/unity3d/
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.config/vlc/
+.config/yay/
