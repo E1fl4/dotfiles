@@ -1,9 +1,15 @@
+.config/Bitwarden/
+.config/BraveSoftware/
+.config/CurseForge/
 .config/dconf/
 .config/discord/
 .config/dolphinrc
 .config/filetypesrc
+.config/fossil.db
+.config/gh/
 .config/GitHub\ Desktop/
 .config/go/
+.config/kwalletrc
 .config/mimeapps.list
 .config/mirage/
 .config/mozilla/
@@ -23,4 +29,5 @@
 .config/user-dirs.dirs
 .config/user-dirs.locale
 .config/vlc/
+.config/waywall/
 .config/yay/
