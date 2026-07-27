@@ -24,11 +24,13 @@ export EDITOR='nvim'
 
 alias wp="./Scripts/awww_randomize.sh Pictures/Wallpapers"
 alias hf="hyfetch"
-alias hfsize="hyprctl dispatch 'hl.dsp.window.resize({ x=1160, y=665 })' &> /dev/null && clear"
+alias hfsize="hyprctl dispatch 'hl.dsp.window.resize({ x=1160, y=665 })' &> /dev/null && clear" # MesloLGMNFM-Regular (13pt)
+# alias hfsize="hyprctl dispatch 'hl.dsp.window.resize({ x=897, y=540 })' &> /dev/null && clear" # MesloLGMNFM-Regular (11pt)
 alias resize1="hyprctl dispatch 'hl.dsp.window.resize({ x=1, y=330 })' &> /dev/null && clear"
 alias ff="fastfetch"
 alias p="pipes-rs && clear"
 alias m="cmatrix && clear"
 alias cv="cava && clear"
+alias bt="btop && clear"
 alias s="systemctl poweroff"
 alias c="clear"
