@@ -23,6 +23,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export EDITOR='nvim'
 
 alias wp="./Scripts/awww_randomize.sh Pictures/Wallpapers"
+alias skipwp="./Scripts/skip_wallpaper.sh Pictures/Wallpapers &> /dev/null"
 alias hf="hyfetch"
 alias hfsize="hyprctl dispatch 'hl.dsp.window.resize({ x=1160, y=665 })' &> /dev/null && clear" # MesloLGMNFM-Regular (13pt)
 # alias hfsize="hyprctl dispatch 'hl.dsp.window.resize({ x=897, y=540 })' &> /dev/null && clear" # MesloLGMNFM-Regular (11pt)
