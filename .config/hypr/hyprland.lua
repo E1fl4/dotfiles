@@ -301,7 +301,7 @@ hl.bind("SUPER + SHIFT + 0",  hl.dsp.window.move({ workspace = 10 }))
 
 -- G1-G9
 hl.bind("XF86Tools",          hl.dsp.exec_cmd("~/Scripts/close_windows.sh"))
--- hl.bind("XF86Launch5",        hl.dsp.exec_cmd("swaync-client -t -sw"))
+hl.bind("XF86Launch5",        hl.dsp.exec_cmd("~/Scripts/skip_wallpaper.sh ~/Pictures/Wallpapers"))
 -- hl.bind("XF86Launch6",        hl.dsp.exec_cmd("swaync-client -t -sw"))
 -- hl.bind("XF86Launch7",        hl.dsp.exec_cmd("swaync-client -t -sw"))
 -- hl.bind("XF86Launch8",        hl.dsp.exec_cmd("swaync-client -t -sw"))
