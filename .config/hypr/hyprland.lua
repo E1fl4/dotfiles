@@ -333,8 +333,7 @@ hl.bind("XF86TouchpadToggle", hl.dsp.exec_cmd("~/Scripts/terminals3.sh"))
 --     hl.dispatch(hl.dsp.focus({ workspace = hl.get_last_workspace() }))
 -- end)
 
-hl.bind("SUPER + TAB",         hl.dsp.focus({ workspace = "e+1" }))
-hl.bind("SUPER + SHIFT + TAB", hl.dsp.focus({ workspace = "e-1" }))
+hl.bind("SUPER + TAB",         hl.dsp.focus({ workspace = "previous" }))
 
 -- Example special workspace (scratchpad)
 hl.bind("SUPER + S",         hl.dsp.workspace.toggle_special("magic"))
