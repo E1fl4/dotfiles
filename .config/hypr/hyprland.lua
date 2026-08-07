@@ -329,10 +329,6 @@ hl.bind("F19",                hl.dsp.exec_cmd("~/Scripts/terminals2.sh"))
 -- no G8 :(
 hl.bind("XF86TouchpadToggle", hl.dsp.exec_cmd("~/Scripts/terminals3.sh"))
 
--- hl.bind("SUPER + TAB",        function ()
---     hl.dispatch(hl.dsp.focus({ workspace = hl.get_last_workspace() }))
--- end)
-
 hl.bind("SUPER + TAB",         hl.dsp.focus({ workspace = "previous" }))
 
 -- Example special workspace (scratchpad)
