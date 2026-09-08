@@ -24,10 +24,12 @@
 .config/QtProject.conf
 .config/session/
 .config/spotify/
+.config/transmission/
 .config/trashrc
 .config/unity3d/
 .config/user-dirs.dirs
 .config/user-dirs.locale
+.config/VirtualBox/
 .config/vlc/
 .config/waywall/
 .config/yay/
