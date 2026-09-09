@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S --needed base-devel git stow zsh neovim npm python-pipx imagemagick awww waybar swaync firefox
+sudo pacman -S --needed base-devel git stow zsh ttf-meslo-nerd neovim npm python-pipx imagemagick awww waybar swaync firefox
 git clone https://github.com/E1fl4/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow .
