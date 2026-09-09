@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S --needed base-devel git stow zsh neovim npm python-pipx imagemagick awww waybar swaync
+sudo pacman -S --needed base-devel git stow zsh neovim npm python-pipx imagemagick awww waybar swaync firefox
 git clone https://github.com/E1fl4/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow .
@@ -9,4 +9,4 @@ mkdir -p ~/Pictures/Wallpapers
 mv ~/dotfiles/wallhaven-wqkgkq_3840x2160.png ~/Pictures/Wallpapers
 pipx install pywal16
 ~/.local/bin/wal -t -i ~/Pictures/Wallpapers/wallhaven-wqkgkq_3840x2160.png
-chsh -s /bin/zsh
+echo "\nRemember to change shell: chsh -s /bin/zsh"
