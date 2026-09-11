@@ -22,6 +22,12 @@ source ~/.powerlevel10k/powerlevel10k.zsh-theme
 
 export EDITOR='nvim'
 
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+bindkey "^[[3~" delete-char
+bindkey "^[[1;3D" backward-word
+bindkey "^[[1;3C" forward-word
+
 alias wp="./Scripts/awww_randomize.sh Pictures/Wallpapers"
 alias skipwp="./Scripts/skip_wallpaper.sh Pictures/Wallpapers &> /dev/null"
 alias hf="hyfetch"
