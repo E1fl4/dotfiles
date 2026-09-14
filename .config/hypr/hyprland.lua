@@ -18,7 +18,7 @@ hl.monitor({
 ---------------------
 
 local terminal    = "kitty"
-local browser     = "firefox-developer-edition"
+local browser     = "firefox"
 local fileManager = "dolphin"
 local menu        = "rofi -show drun"
 
