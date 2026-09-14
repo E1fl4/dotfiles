@@ -1,6 +1,8 @@
 # Get pywal colors
 # (cat ~/.cache/wal/sequences &)
 
+export PATH="$PATH:$HOME/.local/bin"
+
 # TTY prompt
 if [[ "$TERM" == "linux" ]]; then
   PROMPT='%n@%m:%~$ '
